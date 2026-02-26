@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition - Fitness Aura</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="hm.html">Error</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Nutrition Guide</h1>
+            <h2>Daily Calorie Needs</h2>
+            <p>Calculate your approximate daily calorie needs based on activity level.</p>
+            <form id="calorieForm">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <label for="activity">Activity Level:</label>
+                <select id="activity" name="activity">
+                    <option value="sedentary">Sedentary</option>
+                    <option value="light">Lightly Active</option>
+                    <option value="moderate">Moderately Active</option>
+                    <option value="active">Very Active</option>
+                </select>
+                <button type="submit">Calculate</button>
+            </form>
+            <p id="calorieResult"></p>
+            <h2>Healthy Eating Tips</h2>
+            <ul>
+                <li>Eat a variety of colorful fruits and vegetables.</li>
+                <li>Choose whole grains over refined grains.</li>
+                <li>Include lean proteins in every meal.</li>
+                <li>Limit processed foods and added sugars.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; fitness Aura 2.0.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
