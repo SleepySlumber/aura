@@ -1,0 +1,38 @@
+header {
+    background-color: #ffffff85;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+    
+}
+
+.gradient-text {
+    background: linear-gradient(25deg, rgb(3, 3, 97), gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p {
+    color: #5d5d5d;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+
+}
+
+body {
+    background: linear-gradient(135deg, #6cd8c3, #16a085);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: #373d44;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+
+}
